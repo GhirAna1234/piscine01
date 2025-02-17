@@ -4,9 +4,12 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func main() {
+func printalphabet() {
 	for a := 'a'; a <= 'z'; a++ {
 		z01.PrintRune(a)
 	}
 	z01.PrintRune('\n')
+}
+func main() {
+	printalphabet()
 }

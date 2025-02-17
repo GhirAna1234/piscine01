@@ -1,0 +1,7 @@
+//covert the string to the rune slice
+//Stores the length of the string for use in the loop.
+//This variable stores the final converted integer.
+//Iterates through each character of the string.
+//Check if the Character is a Digit.
+//Convert Character to Integer.
+//Return the Final Integer

@@ -5,18 +5,13 @@ import (
 )
 
 func BasicAtoi(s string) int {
-	arr := []rune{}
-	n := len(s) - 1
-	v := 0
-	for a := 0; a <= n; a++ {
-		arr = append(arr, rune(s[a]-48))
-	}
-
-	for b := 0; b <= len(arr)-1; b++ {
-		v = v*10 + int(arr[b])
-
+	v := 0                   //v will store the final integer result.
+	for _, char := range s { //Loops through each character (char) in the string.
+		//_ ignores the index since we don’t need it.
+		v = v*10 + int(char-'0') // Directly convert and accumulate the value
 	}
 	return v
+
 }
 
 func main() {

@@ -1,0 +1,13 @@
+Initialize a variable to store the final integer result.
+Check if the string is empty: If empty, return 0.
+Check for a sign (+ or -):
+
+    If present at the start, store whether it's negative and move to the next character.
+
+Iterate through each character:
+
+    If it's a digit (0-9), convert it to an integer and add it to the result.
+    If a non-digit character is found, return 0 (invalid input).
+
+Apply the sign: If negative, multiply the result by -1.
+Return the integer result.

@@ -1,0 +1,6 @@
+v will store the final integer result.
+Loops through each character (char) in the string.
+_ ignores the index since we don’t need it.
+Convert Character to Integer and Accumulate
+Returns the fully converted integer.
+
