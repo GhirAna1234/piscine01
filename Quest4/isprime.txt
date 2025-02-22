@@ -1,0 +1,27 @@
+This Go function determines if a number is prime. Let's break it down step by step.
+Algorithm of IsPrime(nb int) bool
+1. Base Cases:
+
+    If nb < 2, return false (since 1 and negative numbers are not prime).
+    If nb == 2 or nb == 3, return true (smallest prime numbers).
+
+2. Loop to Check Divisibility
+
+    Start a loop from i = 2 to nb - 1.
+    If nb is divisible by any i in this range, return false (because a prime number must only be divisible by 1 and itself).
+
+3. If No Divisors Are Found, Return true
+
+    If the loop finishes without finding a divisor, the number is prime.
+
+Algorithm in Pseudocode
+
+Function IsPrime(nb):
+    If nb < 2:
+        Return False
+    If nb is 2 or 3:
+        Return True
+    For i from 2 to nb - 1:
+        If nb % i == 0:
+            Return False
+    Return True

@@ -1,0 +1,16 @@
+This algorithm calculates the factorial of a given number nn recursively.
+Algorithm (Recursive Approach)
+
+    Base Case:
+        If n=0n=0 or n=1n=1, return 1 (since 0!=1!=10!=1!=1).
+    Recursive Case:
+        Compute factorial(n - 1), then multiply it by n.
+    Return the result.
+
+Algorithm in Steps
+
+Factorial(n):
+  If n is 0 or 1:
+    Return 1  // Base case
+  Else:
+    Return n * Factorial(n - 1)  // Recursive call

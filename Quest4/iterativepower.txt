@@ -1,0 +1,18 @@
+This approach avoids recursion by using a loop.
+Algorithm (Iterative Approach)
+
+    Initialize result = 1.
+    Loop from 1 to n, multiplying result by x in each iteration.
+    Return result.
+
+Algorithm in Steps
+
+Power_Iterative(x, n):
+  result = 1
+  For i from 1 to n:
+    result = result * x
+  Return result
+
+✅ Pros: No recursion, avoids stack overflow.
+⏳ Time Complexity: O(n)O(n)
+📌 Space Complexity: O(1)O(1) (constant space)

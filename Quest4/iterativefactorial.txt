@@ -1,0 +1,11 @@
+1. Iterative Approach (Loop) - O(n)O(n)
+
+This approach uses a simple loop to multiply nb by itself n times.
+Algorithm (Iterative)
+
+    Set result = 1.
+    Repeat n times:
+        Multiply result by x.
+    Return result.
+✅ Pros: More efficient, avoids stack overflow
+❌ Cons: Slightly longer code

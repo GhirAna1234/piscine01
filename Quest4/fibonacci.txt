@@ -1,0 +1,13 @@
+Algorithm for Recursive Fibonacci Function
+
+This algorithm finds the Fibonacci number at a given index recursively.
+💡 Algorithm (Recursive Approach)
+
+Function Fibonacci(index):
+    If index < 0:
+        Return -1  // Negative index is invalid
+    If index == 0:
+        Return 0   // Base case: Fibonacci(0) = 0
+    If index == 1:
+        Return 1   // Base case: Fibonacci(1) = 1
+    Return Fibonacci(index - 1) + Fibonacci(index - 2)  // Recursive step
